@@ -1,7 +1,7 @@
-Makine Öğrenme Projesi Sonuçları
+# Makine Öğrenme Projesi Sonuçları
 
 Bu proje, Random Forest Regressor kullanılarak gerçekleştirilen bir makine öğrenme çalışmasını içermektedir. Aşağıda, projenin sonuçları ve önemli bulguları sunulmaktadır.
-En İyi Model
+## En İyi Model
 
 Proje sonuçlarına göre, Random Forest Regressor modelinin en iyi hiperparametreleri şunlardır:
 
@@ -12,21 +12,22 @@ Proje sonuçlarına göre, Random Forest Regressor modelinin en iyi hiperparamet
     Maksimum Özellik Sayısı (max_features): 'auto'
     Maksimum Derinlik (max_depth): 30
 
-Performans Değerlendirmesi
+## Performans Değerlendirmesi
 
 Bu modelin performansı, negatif ortalama kare hata (neg_mean_squared_error) skorunu kullanarak ölçülmüştür:
-Eğitim Verileri Üzerinde Performans:
+## Eğitim Verileri Üzerinde Performans:
 
     Negatif Ortalama Kare Hata (neg_mean_squared_error): -231958133.13
     Kök Ortalama Kare Hata (RMSE): 15230.17
 
-Test Verileri Üzerinde Performans:
+## Test Verileri Üzerinde Performans:
 
     Negatif Ortalama Kare Hata (neg_mean_squared_error): -4754792943.75
     Kök Ortalama Kare Hata (RMSE): 68955.01
 
 Ayrıca, modelin test verileri üzerinde ortalama hata (Mean Absolute Error) değeri 8284.62 ve ortalama hata karesi (Mean Squared Error) değeri 4754792943.75 olarak hesaplanmıştır.
-Sonuçlar ve Açıklamalar
+
+# Sonuçlar ve Açıklamalar
 
 Elde edilen sonuçlar, modelin eğitim verileri üzerinde oldukça iyi performans gösterdiğini göstermektedir. Ancak, test verileri üzerinde negatif ortalama kare hata (neg_mean_squared_error) değeri oldukça yüksektir ve bu, modelin aşırı uydurma (overfitting) sorunu yaşadığını gösterir.
 
